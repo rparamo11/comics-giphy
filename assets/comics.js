@@ -16,7 +16,17 @@ $(document).ready(function() {
         }
     }
 
-    userButtons();
+ // user adds button to array by form of input in search field
+    function addComics() {
+        $("#addSearch").on("click", function() {
+            var userInput = $("#search-input").val().trim();
 
+            comics.push(userInput);
+
+            userButtons();
+
+        });
+    }
+
+    addComics();
 })
-
