@@ -13,6 +13,7 @@ $(document).ready(function() {
             searchBtn.text(comics[i]);
 
             $("#beginGifs").append(searchBtn);
+            // console.log(userButtons);
         }
     }
 
@@ -24,6 +25,7 @@ $(document).ready(function() {
             comics.push(userInput);
 
             userButtons();
+            // console.log(addComics);
 
         });
     }
@@ -67,5 +69,21 @@ $(document).ready(function() {
 
     userButtons();
     addComics();
-    display();
+    // display();
+
+// when button clicked, comics appear
+    $(document).on("click", ".gif-button", display);
+
+    $(document).on("click", ".gif", function () {
+        var state = $(this).attr('data-state');
+        if (state == 'still') {
+            $(this).attr('src', $(this).data('animate'));
+            $(this).attr('data-state', 'animate');
+        } else {
+            $(this).attr('src', $(this).data('still'));
+            $(this).attr('data-state', 'still');
+        }
+    });
+
+
 });
