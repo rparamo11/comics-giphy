@@ -39,3 +39,23 @@ footer {
     margin-top: 0px;
     min-height: 0rem;
 }
+
+#input-buttons {
+    width: 300px;
+    text-align: center;
+    margin-top: 0px;
+    float: right;
+    margin-right: 20px;
+    max-height: 250px;
+}
+
+.gif-button {
+    font-family: 'Marvel', sans-serif;
+    background: #f1e148;
+    font-weight: bold;
+    font-size: 20px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px 10px;
+    margin: 5px;
+}
