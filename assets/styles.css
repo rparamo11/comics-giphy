@@ -1,0 +1,24 @@
+body {
+    font-family: 'Marvel', sans-serif;
+    background-color: rgb(113, 115, 202);
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+    background: rgb(56, 58, 158);
+    color: #ccc;
+
+}
+
+.jumbotron {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
