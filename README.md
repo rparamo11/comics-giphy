@@ -8,6 +8,14 @@ In this assignment I used the GIPHY API to make a dynamic web page that populate
 ### Getting Started
 https://rparamo11.github.io/comics-giphy/
 
+#### Click on the comic book of your choice to reveal the giphs from the selected comic book.
+![Screen shot](assets/images/image_1.png)
+
+![Screen shot](assets/images/image_2.png)
+
+#### Add your favorite comic book to the list, once added, selected the comic book and watch as your favorite comic book giphs appear. 
+![Screen shot](assets/images/image_3.png)
+
 
 ### Technologies Used
 * JavaScript
